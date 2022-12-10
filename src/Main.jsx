@@ -22,14 +22,14 @@ const Main = () => {
 
   const addCart = (e) =>{
     const itemData = e.itemData;
-    try{
-      tempCart = JSON.parse(localStorage.getItem('cart'));
-    }catch(e){
-      console.log('No Cart Value!')
+    if(localStorage.getItem('cart') === 'null'){
+      localStorage.setItem('cart', JSON.stringify(itemData))
+      tempCart.push(JSON.parse(localStorage.getItem('cart')));
+    }else{//if cart has at least 1 item
+      tempCart.push(itemData);
+      localStorage.setItem('cart', JSON.stringify(tempCart))
     }
-    tempCart.push(itemData);
-    localStorage.setItem('cart', JSON.stringify(tempCart));
-    console.log(tempCart);
+    console.log(localStorage.getItem('cart'))
   }
 
   React.useEffect(()=>{

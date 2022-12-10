@@ -10,6 +10,7 @@ const Account = (props) => {
     try{
         userData = JSON.parse(localStorage.getItem('user'));
         cartData = JSON.parse(localStorage.getItem('cart')); 
+        console.log(cartData)
     }catch(e){
     }
     return (
