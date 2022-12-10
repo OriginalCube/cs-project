@@ -1,0 +1,74 @@
+{
+    "Computers": [
+        {
+            "id": 1,
+            "name": "Starter Build AMD",
+            "image": "../assets/images/items/mainThumbnail.gif",
+            "price": 13333
+        },
+        {
+            "id": 2,
+            "name": "Starter Plus",
+            "image": "../assets/images/items/mainThumbnail.gif",
+            "price": 17105 
+        },
+        {
+            "id": 3,
+            "name": "Starter Pro",
+            "image": "../assets/images/items/mainThumbnail.gif",
+            "price": 17345 
+        }, 
+        {
+            "id": 4,
+            "name": "Immortal Build",
+            "image": "../assets/images/items/mainThumbnail.gif",
+            "price": 55300 
+        },
+        {
+            "id": 5,
+            "name": "Starter Pro",
+            "image": "../assets/images/items/mainThumbnail.gif",
+            "price": 17345 
+        },
+        {
+            "id": 6,
+            "name": "Starter Pro",
+            "image": "../assets/images/items/mainThumbnail.gif",
+            "price": 17345 
+        },
+        {
+            "id": 7,
+            "name": "Starter Pro",
+            "image": "../assets/images/items/mainThumbnail.gif",
+            "price": 17345 
+        } 
+    ] ,
+    "Laptops": [
+        {
+            "id": 1,
+            "name": "HP 14-fq1025nr",
+            "image": "../assets/images/items/mainThumbnail.gif",
+            "price": 29600 
+        }, {
+            "id": 2,
+            "name": "MSI Modern 14 B5M-084PH",
+            "image": "../assets/images/items/mainThumbnail.gif",
+            "price": 35000 
+        }, {
+            "id": 3,
+            "name": "Lenovo IdeaPad Laptop",
+            "image": "../assets/images/items/mainThumbnail.gif",
+            "price": 18500 
+        }, {
+            "id": 4,
+            "name": "Asus E410 14.0",
+            "image": "../assets/images/items/mainThumbnail.gif",
+            "price": 12000 
+        }, {
+            "id": 5,
+            "name": "Acer TravelMate P2",
+            "image": "../assets/images/items/mainThumbnail.gif",
+            "price": 30000
+        }
+    ]
+}
