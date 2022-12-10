@@ -1,7 +1,8 @@
 import React from 'react'
 
 const Cart = (props) => {
-    const {name, price, id, cartData} = props;
+    const {name, price, id,} = props;
+    let cartData = JSON.parse(localStorage.getItem('cart'));
     const removeData = (e) =>{
         cartData.splice(id,1)
         localStorage.setItem('cart', JSON.stringify(cartData));
