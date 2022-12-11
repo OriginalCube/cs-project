@@ -13,6 +13,7 @@ const Login = (props) => {
             id: 1,
             name: "username",
             label: "Username",
+            placeholder: "Username",
             type: "text",
             required: true
         }, 
@@ -20,6 +21,7 @@ const Login = (props) => {
             id: 2,
             name: "password",
             label: "Password",
+            placeholder: "Password",
             type: "password",
             required: true
         },
@@ -50,9 +52,10 @@ const Login = (props) => {
     },[])
 
     return (
-    <div>
+    <div className='register'>
+        <div className='registerWrapper'>
         <form onSubmit={handleSubmit}>
-            <h1>Register</h1>
+            <p className='registerText'>Login Page</p>
             {inputs.map((input) => (
             <FormInputs
                 key={input.id}
@@ -65,6 +68,7 @@ const Login = (props) => {
             <Outlet />
             <button>Submit</button>
       </form>
+      </div>
     </div>
   )
 }

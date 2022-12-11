@@ -3,7 +3,7 @@ import StoreData from '../StoreData.json'
 import Item from './Item'
 
 const Computers = (props) => {
-  const itemId = ['Computers', 'Laptops']
+  const itemId = ['Computers', 'Laptops', 'Accessories']
   return (
     <div className='computers'>
       <div className='catalogue'></div> 

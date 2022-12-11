@@ -80,9 +80,10 @@ const Register = (props) => {
 
   
   return (
-    <div>
+    <div className='register'>
+      <div className='registerWrapper'>
         <form onSubmit={handleSubmit}>
-        <h1>Register</h1>
+        <p className='registerText'>Create an Account</p>
         {inputs.map((input) => (
           <FormInputs
             key={input.id}
@@ -95,6 +96,7 @@ const Register = (props) => {
         <Outlet />
         <button>Submit</button>
       </form>
+      </div>
     </div>
   )
 }

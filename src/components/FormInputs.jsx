@@ -8,8 +8,7 @@ const FormInputs = (props) => {
     setFocused(true);
   };
   return (
-    <div>
-      <label>{label}</label>
+    <div className='formInput'>
       <input
         {...inputProps}
         onChange={onChange}
