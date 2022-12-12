@@ -16,8 +16,12 @@ const Main = () => {
   }
 
   const auth = (e) =>{
+    if(e===true){ 
     navigate('/homepage/0')
     setNavigation(e);
+    }else{
+      setNavigation(e);
+    }
   }
 
   const addCart = (e) =>{
@@ -54,7 +58,7 @@ const Main = () => {
           <p onClick={()=>changeAddress(0)}>Home</p> 
           <p onClick={()=>changeAddress(1)}>Computers</p> 
           <p onClick={()=>changeAddress(2)}>Laptops</p> 
-          <p onClick={()=>changeAddress(3)}>Access</p> 
+          <p onClick={()=>changeAddress(3)}>Accessories</p> 
           <p onClick={()=>changeAddress(4)}>Account</p> 
         </div>
       </div>:null}

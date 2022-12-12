@@ -1,12 +1,14 @@
 import React from 'react'
 import StoreData from '../StoreData.json'
 import Item from './Item'
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import CarouselTemplate from './CarouselTemplate'
 
 const Computers = (props) => {
   const itemId = ['Computers', 'Laptops', 'Accessories']
   return (
     <div className='computers'>
-      <div className='catalogue'></div> 
+      <CarouselTemplate/>
       <div className='item-list'>
       {
         StoreData[itemId[props.id-1]].map((e)=>(
@@ -21,8 +23,7 @@ const Computers = (props) => {
           />
         ))
       } </div>
-      <div className='footer'>
-      </div>
+      <img style={{width: '100%', marginTop: '12%' }} src="https://cdn3.wpbeginner.com/wp-content/uploads/2021/10/the-next-web-footer.png" alt="" /> 
     </div>
   )
 }

@@ -237,6 +237,78 @@ input:invalid[focused="true"] ~ .errorMessage{
   margin-left: 33%;
 }
 
+.cart{
+  width: 90vw;
+  background-color: white;
+  border-radius: 15px;
+  margin-left: 3vw;
+  padding: 15px 30px;
+  box-shadow: 0px 0px 5px black;
+  margin-bottom: 45px;
+}
+
+.cart button{
+  border: none;
+  background-color: #E59B11;
+  border: 2px solid #E59B11;
+  color: white;
+  border-radius: 8px;
+  font-size: 1.2rem;
+  margin-top: 10px;
+  padding: 15px 25px;
+}
+
+.cart button:hover{
+  color: #E59B11;
+  background-color: white;
+}
+
+.cart-wrapper{
+  border: 2px solid gray;
+  margin-bottom: 35px;
+}
+
+.cart-wrapper img{
+  float: left; 
+  margin-top: 20px; 
+  margin-left: 20px;
+  height: 10%;
+  width: 15%;
+}
+
+.total{
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+.cart-data{
+  position: relative;
+  left: 15%; 
+  width: 40%;
+  margin: auto;
+  margin-top: 60px;
+}
+
+.cart-data label{
+  font-family: 'PT Sans', sans-serif;
+}
+
+.cart-wrapper button{
+  border: 2px solid #5EBB1E;
+  font-size: 1rem;
+  border-radius: 5px;
+  background-color: #5EBB1E;
+  color: white;
+  margin-left: 90%;
+  margin-bottom: 15px; 
+  padding: 15px 35px;
+}
+
+.cart-wrapper button:hover{
+  color: #5EBB1E;
+  background-color: white;
+}
+
 .footer{
   position: relative;
   margin-top: 5%;
@@ -264,6 +336,13 @@ input:invalid[focused="true"] ~ .errorMessage{
   }
 
   .store-item{
+    height: 50%;
+    width: 42%;
+    font-size: 1rem;
+    font-size: .7rem;
+  }
+
+  .store-item:hover{
     height: 50%;
     width: 42%;
     font-size: 1rem;
@@ -311,4 +390,23 @@ input:invalid[focused="true"] ~ .errorMessage{
   .product-cart{
     margin-left: 20%;
   }
+
+  .cart{
+    width: 78%;
+  }
+  
+  .cart-wrapper img{
+    margin-top: 30%;
+    width: 30%;
+    height: 40%;
+  }
+
+  .cart-data{
+    float: left;
+  }
+
+  .cart-wrapper button{
+    margin-left: 28%;
+  }
+
 }

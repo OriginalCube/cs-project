@@ -75,6 +75,8 @@ const Register = (props) => {
         const auth = localStorage.getItem('auth');
         if(auth==='true'){
             props.auth(true);
+        }else{
+          props.auth(false);
         }
   },[])
 
