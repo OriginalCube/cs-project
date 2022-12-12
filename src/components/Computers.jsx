@@ -15,6 +15,7 @@ const Computers = (props) => {
             productId={e.id}
             key={e.id}
             name={e.name} 
+            description={e.description}
             image={e.image} 
             price={e.price}
           />

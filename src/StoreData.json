@@ -3,49 +3,49 @@
         {
             "id": 1,
             "name": "Starter Build AMD",
-            "image": "../assets/images/items/mainThumbnail.gif",
-            "description": "",
+            "image": "../assets/images/items/c1.webp",
+            "description": "Processor: AMD Ryzen 3200G; Motherboard: A320M motherboard (Brand may vary); Memory: 8gb Ddr4 gaming memory; SSD: 240gb- up to 30x faster than traditional HDD; Operating system: windows 10 64-bit (trial version); Case: Black ATX mesh gaming case; Power Supply: 500watts 80 plus.",
             "price": 13333
         },
         {
             "id": 2,
             "name": "Starter Plus",
-            "image": "../assets/images/items/mainThumbnail.gif",
+            "image": "../assets/images/items/c2.webp",
             "description": "Processor: AMD Ryzen 3 3200g ; Motherboard: A320M motherboard (Brand may vary); Memory: 8gb Ddr4 gaming memory; SSD: 240gb- up to 30x faster than traditional HDD; Operating system: windows 10 64-bit (trial version); Case: Black ATX mesh gaming case; Power Supply: 500watts 80 plus.",
             "price": 17105 
         },
         {
             "id": 3,
             "name": "Starter Pro",
-            "image": "../assets/images/items/mainThumbnail.gif",
+            "image": "../assets/images/items/c3.webp",
             "description": "Processor: AMD Ryzen 3 4350G; Motherboard: A320M motherboard (Brand may vary); Memory: 8gb Ddr4 gaming memory; SSD: 256gb- up to 30x faster than traditional HDD; Operating system: windows 10 64-bit (trial version); Case: Black ATX mesh gaming case; Power Supply: 500watts 80 plus.",
             "price": 17345 
         }, 
         {
             "id": 4,
             "name": "Immortal Build",
-            "image": "../assets/images/items/mainThumbnail.gif",
+            "image": "../assets/images/items/c4.webp",
             "description": "Processor: Ryzen 7 5800X; Motherboard: B550M motherboard (Brand may vary); Memory: 16gb Ddr4 gaming memory; SSD: 240gb- up to 30x faster than traditional HDD; Operating system: windows 10 64-bit (trial version); Case: Black ATX mesh gaming case; Power Supply: 650watts; RTX 3060 graphic card.",
             "price": 55300 
         } ,
         {
             "id": 5,
             "name": "Legendary Build",
-            "image": "../assets/images/items/mainThumbnail.gif",
+            "image": "../assets/images/items/c5.webp",
             "description": "Ryzen 5 5600X / RTX 3050 / B450M / 16GB / 240GB / 650Watts / Case / Freebie Flash Drive Black and Carry Bag",
             "price": 17345 
         } ,
         {
             "id": 6,
             "name": "Platinum Build",
-            "image": "../assets/images/items/mainThumbnail.gif",
+            "image": "../assets/images/items/c6.webp",
             "description": "Ryzen 5 3600 / RTX 3050 / B450M / 16GB / 240GB / 650Watts / Case / Freebie Flash Drive Black and Carry Bag",
             "price": 17345 
         } ,
         {
             "id": 7,
-            "name": "Starter ProMSI Gaming PC Build",
-            "image": "../assets/images/items/mainThumbnail.gif",
+            "name": "Starter ProMSI Gaming",
+            "image": "../assets/images/items/c7.webp",
             "description": "MSI Gaming PC Build / Ryzen 5 5600X / RTX 3060 / B550M / 16GB / 500GB / 650Watts",
             "price": 17345 
         }
@@ -54,31 +54,31 @@
         {
             "id": 1,
             "name": "HP 14-fq1025nr",
-            "image": "../assets/images/items/mainThumbnail.gif",
+            "image": "../assets/images/items/l1.webp",
             "description" : "HP 14-fq1025nr AMD Ryzen 5 5500U 8GB 256GB SSD Win11 Laptop PS",
             "price": 29600 
         }, {
             "id": 2,
-            "name": "MSI Modern 14 B5M-084PH",
-            "image": "../assets/images/items/mainThumbnail.gif",
+            "name": "MSI Modern 14 B5M",
+            "image": "../assets/images/items/l2.webp",
             "description" : "Lenovo IdeaPad 3i Intel Core i3-1115G4/8GB/256GB PCIe SSD/Win11 Laptop PS",
             "price": 35000 
         }, {
             "id": 3,
             "name": "Lenovo IdeaPad Laptop",
-            "image": "../assets/images/items/mainThumbnail.gif",
+            "image": "../assets/images/items/l3.webp",
             "description" : "Acer TravelMate P2  Intel Core i5-1135G7 8GB DDR4 512 GB SSD Intel HD Graphics Win10 Laptop PS",
             "price": 18500 
         }, {
             "id": 4,
             "name": "Asus E410 14.0",
-            "image": "../assets/images/items/mainThumbnail.gif",
+            "image": "../assets/images/items/l4.webp",
             "description" : "Lenovo IdeaPad Laptop, 14.0 Intel Pentium Silver N5030/4GB/128GB PCIe SSD/Win11 Laptop PS",
             "price": 12000 
         }, {
             "id": 5,
             "name": "Acer TravelMate P2",
-            "image": "../assets/images/items/mainThumbnail.gif",
+            "image": "../assets/images/items/l5.webp",
             "description" : "Acer Aspire 5  A515-56-32DK  Intel Core i3-1115G4 4GB 128GB NVMe SSD",
             "price": 30000
         }
@@ -86,46 +86,46 @@
     "Accessories":[
         {
             "id": 1,
-            "name": "NZXT CB-6V 6-Pin VGA Extension Cable",
-            "image": "../assets/images/items/mainThumbnail.gif",
+            "name": "NZXT 6-Pin VGA Cable",
+            "image": "../assets/images/items/a1.webp",
             "description" : "Computer Video Connector",
             "price": 150 
         }, {
             "id": 2,
-            "name": "HP 14-fq1025nrAdlink Hdmi 1.8m Cable Pure Copper Blue",
-            "image": "../assets/images/items/mainThumbnail.gif",
+            "name": "HP  Hdmi 1.8m Cable",
+            "image": "../assets/images/items/a2.webp",
             "description" : "Computer Video Connector",
             "price": 300 
         },  {
             "id": 3,
             "name": "Vga 5m Cable",
-            "image": "../assets/images/items/mainThumbnail.gif",
+            "image": "../assets/images/items/a3.webp",
             "description" : "HP 14-fq1025nr AMD Ryzen 5 5500U 8GB 256GB SSD Win11 Laptop PS",
             "price": 250 
         }, {
             "id": 4,
             "name": "ESET Internet Security",
-            "image": "../assets/images/items/mainThumbnail.gif",
+            "image": "../assets/images/items/a4.webp",
             "description" : "ESET Internet Security 1User 2Yrs Subscription Antivirus",
             "price": 450 
         }, {
             "id": 5,
-            "name": "Adata XPG Emix I30 InEar Earphones ADI3358 1ION",
-            "image": "../assets/images/items/mainThumbnail.gif",
+            "name": "Adata XPG Emix InEar",
+            "image": "../assets/images/items/a5.webp",
             "description" : "Computer Earphones Adata XPG Emix I30 InEar Earphones ADI3358 1ION",
-            "price": 29600 
+            "price": 296 
         }, {
             "id": 6,
-            "name": "scenarios Wireless Stereo Earbuds Black & White 19GLO",
-            "image": "../assets/images/items/mainThumbnail.gif",
+            "name": "scenarios Earbuds",
+            "image": "../assets/images/items/a6.webp",
             "description" : "Edifier X3s True IP55-rated dust and water resistance for outdoor scenarios Wireless Stereo Earbuds Black & White 19GLO",
-            "price": 29600 
+            "price": 960 
         }, {
             "id": 7,
-            "name": "Edifier TWS1 Pro True Dark Gray and Ivory",
-            "image": "../assets/images/items/mainThumbnail.gif",
+            "name": "Edifier TWS1 Pro",
+            "image": "../assets/images/items/a7.webp",
             "description" : "Edifier TWS1 Pro True Dark Gray and Ivory supported Up to 12 hours continuous playback Wireless Stereo Earbuds 19GLO",
-            "price": 29600 
+            "price": 2960 
         } 
     ]
 }
