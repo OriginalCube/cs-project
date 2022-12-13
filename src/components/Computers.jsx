@@ -10,7 +10,7 @@ const Computers = (props) => {
     <div className='computers'>
       <CarouselTemplate/>
       <div className='item-list'>
-      {
+      {props.id>0?
         StoreData[itemId[props.id-1]].map((e)=>(
           <Item 
             itemId={itemId[props.id-1]}
@@ -22,8 +22,49 @@ const Computers = (props) => {
             price={e.price}
           />
         ))
-      } </div>
-      <img style={{width: '100%', marginTop: '12%' }} src="https://cdn3.wpbeginner.com/wp-content/uploads/2021/10/the-next-web-footer.png" alt="" /> 
+      :null} 
+      {props.id===0?
+        StoreData[itemId[0]].map((e)=>(
+          <Item 
+            itemId={itemId[0]}
+            productId={e.id}
+            key={e.id}
+            name={e.name} 
+            description={e.description}
+            image={e.image} 
+            price={e.price}
+          />
+        ))
+      :null}
+      {props.id===0?
+        StoreData[itemId[1]].map((e)=>(
+          <Item 
+            itemId={itemId[1]}
+            productId={e.id}
+            key={e.id}
+            name={e.name} 
+            description={e.description}
+            image={e.image} 
+            price={e.price}
+          />
+        ))
+      :null}
+      {props.id===0?
+        StoreData[itemId[2]].map((e)=>(
+          <Item 
+            itemId={itemId[2]}
+            productId={e.id}
+            key={e.id}
+            name={e.name} 
+            description={e.description}
+            image={e.image} 
+            price={e.price}
+          />
+        ))
+      :null}
+       
+      </div>
+      <img style={{width: '100%', marginTop: '12%'}} src="https://cdn3.wpbeginner.com/wp-content/uploads/2021/10/the-next-web-footer.png" alt="" /> 
     </div>
   )
 }

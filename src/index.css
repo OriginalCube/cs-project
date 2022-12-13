@@ -338,6 +338,7 @@ input:invalid[focused="true"] ~ .errorMessage{
   .store-item{
     height: 50%;
     width: 42%;
+    margin-left: 5.5%;
     font-size: 1rem;
     font-size: .7rem;
   }

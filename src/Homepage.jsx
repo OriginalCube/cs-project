@@ -13,7 +13,7 @@ const Homepage = (props) => {
 
     return (
     <div className='homePage'>
-        {address<=3 && address>=1?<Computers id={address}/> : null}
+        {address<=3 && address>=0?<Computers id={address}/> : null}
         {address===4?<Account/> : null}
     </div>
   )
