@@ -47,7 +47,7 @@ const Account = (props) => {
                     />
                 )):null
             }
-            {cartData[0]!==null?<p className='total'>Total Amount:<span style={{color: 'crimson',}}> {total} </span><br/>
+            {cartData[0]!==null?<p className='total'>Total Amount:<span style={{color: 'crimson',}}>₱ {total} </span><br/>
             {cartData[0].map((e)=>{tot+=e.price; return null;})}{cartData[0]!==null?<button className='buyButton' onClick={buyEvent}>Buy Now</button>:null}</p>
             :null}
         </div>
