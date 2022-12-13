@@ -3,6 +3,7 @@ import { Link, Outlet } from 'react-router-dom';
 import FormInputs from './FormInputs';
 
 const Register = (props) => {
+    const [valid, setValid] = React.useState(false);
     const [values, setValues] = React.useState({
     username: "",
     email: "",
@@ -65,6 +66,7 @@ const Register = (props) => {
   const handleSubmit = (e) => {
     e.preventDefault();
     localStorage.setItem('user', JSON.stringify(values));
+    setValid(true);
   };
 
   const onChange = (e) => {
@@ -86,6 +88,7 @@ const Register = (props) => {
       <div className='registerWrapper'>
         <form onSubmit={handleSubmit}>
         <p className='registerText'>Create an Account</p>
+        {valid?<span style={{color:'green'}}>Account Created Successfully!</span>:null}
         {inputs.map((input) => (
           <FormInputs
             key={input.id}
