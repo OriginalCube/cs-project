@@ -47,6 +47,7 @@ const Main = () => {
   },[])
   return (
     <>
+      <img className='background' src={require("./assets/images/icons/bg.jpg")} alt="" />
       <Routes>
             <Route path="/homepage/:id" element={<Homepage />}/>
             <Route path="/login" element={<Login auth={auth} />}/>

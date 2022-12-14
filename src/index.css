@@ -37,9 +37,10 @@ input:invalid[focused="true"] ~ .errorMessage{
 
 .registerWrapper{
   position: relative;
+  background-color: white;
   width: 30%;
   border-radius: 5px;
-  box-shadow: 0px 0px 3px black; 
+  box-shadow: 0px 0px 5px gray; 
   left: 35%;
   top: 10%;
   height: 65%;
@@ -346,7 +347,18 @@ input:invalid[focused="true"] ~ .errorMessage{
   width: 100%;
 }
 
+.background{
+  position: fixed;
+  height: 100%;
+  width: 100%;
+}
+
 @media only screen and (max-width: 600px){
+
+  .background{
+    height: auto;
+    width: auto;
+  }
 
   .userDetails{
     font-size: 1rem;
@@ -360,6 +372,8 @@ input:invalid[focused="true"] ~ .errorMessage{
     left: 0%;
     height: 100%;
     width: 100%;
+    color: white;
+    text-shadow: 0px 0px 2px black;
   }
 
   .navigation{
