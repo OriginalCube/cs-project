@@ -6,15 +6,15 @@ const CarouselTemplate = () => {
   <div style={{marginTop:'20px'}}>
    <Carousel>
     <div>
-      <img src="https://static1.cbrimages.com/wordpress/wp-content/uploads/2022/10/Bocchi-The-Rock!-Episode-4-Hitori-Gotou-Loses-Her-Mind-Crunchyroll.jpg" />
+      <img src="https://cdn.discordapp.com/attachments/889434629495476296/1052091964897632256/96ff022427b1415d696b89300a7e9c67.jpg" />
       <p className="legend">Computers</p>
     </div>
     <div>
-        <img src="https://static1.cbrimages.com/wordpress/wp-content/uploads/2022/10/Bocchi-The-Rock!-Episode-4-Hitori-Gotou-Loses-Her-Mind-Crunchyroll.jpg" />
+        <img src="https://cdn.discordapp.com/attachments/889434629495476296/1052092195160723496/3fb30606faa3ef93aac011b5d98508da.jpg" />
         <p className="legend">Laptops</p>
     </div>
     <div>
-        <img src="https://static1.cbrimages.com/wordpress/wp-content/uploads/2022/10/Bocchi-The-Rock!-Episode-4-Hitori-Gotou-Loses-Her-Mind-Crunchyroll.jpg" />
+        <img src="https://cdn.discordapp.com/attachments/889434629495476296/1052092613416730664/96ffad4307c6134497717a19381aa2f6.jpg" />
         <p className="legend">Accessories</p>
     </div>
     </Carousel> </div>
